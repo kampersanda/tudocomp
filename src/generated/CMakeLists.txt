@@ -38,6 +38,9 @@ target_link_libraries(
     tudocomp
     glog
     sdsl
+
+    rt
+    gflags
 )
 
 cotire(tudocomp_algorithms)
