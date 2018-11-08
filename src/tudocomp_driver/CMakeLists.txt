@@ -17,6 +17,8 @@ target_link_libraries(
     tudocomp_algorithms
     glog
     sdsl
+    rt
+    gflag
 )
 
 cotire(tudocomp_driver)
